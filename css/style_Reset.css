@@ -5,6 +5,16 @@
     src: url("../fontes/Dosis-VariableFont_wght.ttf") format("TrueType");
 }
 
+@font-face {
+    font-family: 'FonteTituloSlider';
+    src: url('../fontes/Righteous-Regular.ttf') format("TrueType");
+}
+
+@font-face {
+    font-family: 'FontePreco';
+    src: url('../fontes/PatrickHandSC-Regular.ttf') format("TrueType");
+}
+
 
 *{
     box-sizing: border-box !important;
