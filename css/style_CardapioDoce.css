@@ -1,3 +1,33 @@
+.linha_container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.title2{
+        color: #632b0a;
+        font-size: 45px;
+}
+
+.linha11{
+    border-top: 13px solid rgb(104, 46, 5);
+    color: white;
+    border-bottom: 13px solid rgb(255, 0, 106);
+    width: 31%;
+    height: 35px;
+}
+
+.linha21{
+    border-top: 13px solid rgb(255, 0, 106);
+    color: white;
+    border-bottom: 13px solid rgb(104, 46, 5);
+    width: 31%;
+    height: 35px;
+}
+
 .head{
     background-color: #700500;
     color: white;
