@@ -1,0 +1,160 @@
+.local{
+    background-color: #EFCA48;
+    margin-top: 13%;
+}
+
+.local-container{
+    display: flex;
+    margin-left: 2%;
+}
+
+.locale-google{
+    display: block;
+    margin-right: 5%;
+}
+
+.locale-google h2{
+    font-weight: 800;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.textlocal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text{
+    width: 350px;
+    margin-top: 20%;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.image img{
+    position: relative;
+    bottom: 30%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1074px){
+    .local-container{
+        display: flex;
+        margin-left: 2%;
+    }
+    
+    .locale-google{
+        display: block;
+        margin-right: 2%;
+    }
+
+    .img-google{
+        width: 400px;
+        height: 250px;
+    }
+    
+    .locale-google h2{
+        font-weight: 800;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    
+    .textlocal{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .text{
+        width: 400px;
+        margin-top: 20%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .image img{
+        position: relative;
+        bottom: 30%;
+        right: 20%;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 888px) and (max-width: 999px){
+    .locale-google{
+        display: block;
+        margin-right: 2%;
+    }
+    
+    .locale-google h2{
+        font-weight: 800;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    
+    .img-google{
+        width: 400px;
+        height: 250px;
+    }
+
+    .textlocal{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .text{
+        width: 350px;
+        margin-top: 40%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .image img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 887px){
+    body{
+        margin: 0;
+    }
+
+    .local-container{
+        display: block;
+        text-align: center;
+    }
+    .locale-google{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .locale-google{
+        display: block;
+    }
+    
+    .locale-google h2{
+        font-weight: 800;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+
+    .img-google{
+        width: 350px;
+        height: 250px;
+    }
+
+    .textlocal{
+        display: flex;
+        text-align: center;
+    }
+
+    .text{
+        margin: 0 auto;
+        width: 350px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    .image img{
+        display: none;
+    }
+}

@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body, div{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+@media screen and (min-width:1000px) {
+.carousel-indicators button {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+}
+
+.carousel-indicators button:hover {
+    background-color: #700500;
+}
+
+#active{
+    background-color: #700500;
+}
+
+#active1{
+    background-color: #EFCA48;
+}
+
+.yellow_slider{
+    width: 100%;
+    position: relative;
+    height: 500PX;
+    background-color: #EFCA48;
+}
+
+.table{
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    height: 1000px;
+}
+
+.yellow_combo-pictures{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    z-index: 500;
+}
+
+.yellow_combo-pictures img{
+    border-radius: 50%;
+    width: 500px;
+    height: 450px;
+}
+
+.yellow_combo-items{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 450px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 5;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+.yellow_combo-title{
+    font-family:'Righteous'; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px rgba(255, 255, 255, 0.774);
+}
+
+.yellow_combo-price{
+    position: absolute;
+    bottom: 15px;
+    font-size: 70px;
+    right: 30px;
+    width: 450px;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 5px 4px rgba(255, 255, 255, 0.774);
+    z-index: 5;
+    font-family: 'Patrick Hand'; 
+}
+
+
+.red_combo-title{
+    font-family:'Righteous'; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.774);
+}    
+
+.red_slider{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background-color: #700500;
+}
+
+.red_combo-pictures{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    z-index: 500;
+}
+
+.red_combo-pictures img{
+    border-radius: 50%;
+    width: 500px;
+    height: 450px;
+}
+
+.red_combo-items{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 450px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 5;
+    color: white;
+
+}
+
+.red_combo-price{
+    position: absolute;
+    bottom: 15px;
+    font-size: 70px;
+    left: 30px;
+    width: 450px;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 5px 4px rgba(255, 255, 255, 0.774);
+    z-index: 5;
+    font-family: 'Patrick Hand'; 
+}
+
+.observation{
+    font-size: 30px; 
+    font-weight:lighter;
+}
+}
+/*-------------------------------------------------------------------------------*/
+@media screen and (min-width:800px) and (max-width:999px){
+    .carousel-indicators button {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+}
+
+    .carousel-indicators button:hover {
+        background-color: #700500;
+}
+
+    #active{
+        background-color: #700500;
+}
+
+    #active1{
+        background-color: #EFCA48;
+}
+
+    .yellow_slider{
+        width: 100%;
+        position: relative;
+        height: 500PX;
+        background-color: #EFCA48;
+    }
+    
+    .table{
+        width: 100%;
+        position: absolute;
+        bottom: -70px;
+        height: 1000px;
+    }
+    
+    .yellow_combo-pictures{
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        z-index: 500;
+    }
+    
+    .yellow_combo-pictures img{
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .yellow_combo-items{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 450px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 5;
+        color: black;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .yellow_combo-title{
+        font-family:'Righteous'; 
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 2px 4px rgba(255, 255, 255, 0.774);
+    }
+    
+    .yellow_combo-price{
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        width: 450px;
+        font-size: 60px;
+        border-radius: 30px;
+        text-align: center;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 5px 4px rgba(255, 255, 255, 0.774);
+        z-index: 5;
+        font-family: 'Patrick Hand';    
+    }
+    
+    
+    .red_combo-title{
+        font-family:'Righteous'; 
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 2px 4px rgba(0, 0, 0, 0.774);
+    }    
+    
+    .red_slider{
+        width: 100%;
+        position: relative;
+        height: 500px;
+        background-color: #700500;
+    }
+    
+    .red_combo-pictures{
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        z-index: 500;
+    }
+    
+    .red_combo-pictures img{
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .red_combo-items{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 430px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 5;
+        color: white;
+    
+    }
+    
+    .red_combo-price{
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        font-size: 60px;
+        width: 430px;
+        border-radius: 30px;
+        text-align: center;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 5px 4px rgba(255, 255, 255, 0.774);
+        z-index: 5;
+        font-family: 'Patrick Hand';
+}
+    
+    .observation{
+        font-size: 30px; 
+        font-weight:lighter;
+    }
+}
+/*--------------------------------------------------------------------------------------------*/
+@media screen and (min-width:200px) and (max-width: 799px) {
+    .carousel-indicators button {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+}
+
+    .carousel-indicators button:hover {
+        background-color: #700500;
+}
+
+    #active{
+        background-color: transparent;
+        
+}
+
+    #active1{
+        background-color: transparent;
+        
+}
+
+    .yellow_slider{
+        width: 100%;
+        position: relative;
+        height: 400PX;
+        background-color: #EFCA48;
+    }
+    
+    .table{
+        width: 100%;
+        position: absolute;
+        bottom: -70px;
+        height: 600px;
+    }
+    
+    .yellow_combo-pictures{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        z-index: 500;
+
+    }
+    
+    .yellow_combo-pictures img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .yellow_combo-items{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        z-index: 5;
+        color: black;
+    }
+    
+    .yellow_combo-price{
+        position: absolute;
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 3px 3px rgba(255, 255, 255, 0.774);
+        z-index: 5;
+        font-family: 'Patrick Hand';    
+    }
+    
+    .red_slider{
+        width: 100%;
+        position: relative;
+        height: 400px;
+        background-color: #700500;
+    }
+    
+    .red_combo-pictures{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        z-index: 500;
+    }
+    
+    .red_combo-pictures img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .red_combo-items{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        z-index: 5;
+        color: white;
+    }
+    
+    .red_combo-price{
+        position: absolute;
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 3px 3px rgba(255, 255, 255, 0.774);
+        font-family: 'Patrick Hand';    
+        z-index: 5;
+    }
+    
+    .observation{
+        font-size: 50%; 
+        text-align: center;
+    }
+
+    .yellow_combo-title{
+        font-family:'Righteous'; 
+        color: black;
+        font-weight: bolder;
+        text-shadow: 3px 3px rgba(255, 255, 255, 0.774);
+    }
+
+    .red_combo-title{
+        font-family:'Righteous'; 
+        color: white;
+        font-weight: bolder;
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.774);
+    }
+}
+
+

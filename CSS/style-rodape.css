@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+body{
+    margin: 0;
+    font-family: Dosis;
+    overflow-y: auto;
+}
+
+footer{
+    background-color: #700500;
+    color: white;
+    padding: 10px;
+    height: auto;
+}
+
+.footer_container{
+    position: relative;
+    margin: 0;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo img{
+    width: 130px;
+}
+
+.footer_contact{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_contact img{
+    width: 40px;
+    margin: 0 10px !important;
+}
+
+.footer_schedule p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer_schedule a{
+    color: white;
+    text-decoration: none !important;
+    transition: 250ms;
+}
+.footer_schedule a:hover{
+    color: black !important;
+    transform: scale(0.9);
+}
+
+
