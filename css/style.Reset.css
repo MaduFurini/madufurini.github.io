@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FontePrincipal';
+    src: url("../fontes/Dosis-VariableFont_wght.ttf") format("TrueType");
+}
+
+
+*{
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'FontePrincipal' !important;
+    margin: 0 !important;
+    overflow-y: auto;
+}

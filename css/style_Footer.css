@@ -1,11 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-body{
-    margin: 0;
-    font-family: Dosis;
-    overflow-y: auto;
-}
-
 footer{
     background-color: #700500;
     color: white;
