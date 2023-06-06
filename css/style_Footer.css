@@ -43,6 +43,7 @@ footer{
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    line-height: 5px;
 }
 
 .footer_schedule a{
@@ -50,6 +51,7 @@ footer{
     text-decoration: none !important;
     transition: 250ms;
 }
+
 .footer_schedule a:hover{
     color: black !important;
     text-decoration: underline !important;
