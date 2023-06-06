@@ -30,6 +30,11 @@ footer{
 .footer_contact img{
     width: 40px;
     margin: 0 10px !important;
+    transition: .4s ease;
+}
+
+.footer_contact:hover img{
+    transform: scale(1.2) !important;
 }
 
 .footer_schedule p{
@@ -47,7 +52,8 @@ footer{
 }
 .footer_schedule a:hover{
     color: black !important;
-    transform: scale(0.9);
+    text-decoration: underline !important;
+    transform: scale(1.3);
 }
 
 

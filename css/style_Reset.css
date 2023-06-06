@@ -26,5 +26,9 @@
 body{
     font-family: 'FontePrincipal' !important;
     margin: 0 !important;
-    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }

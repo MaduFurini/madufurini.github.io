@@ -1,6 +1,7 @@
 .local{
     background-color: #EFCA48;
     margin-top: 13%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.432);
 }
 
 .local-container{
@@ -34,6 +35,10 @@
 .image img{
     position: relative;
     bottom: 30%;
+}
+
+iframe{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .6);
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1074px){
