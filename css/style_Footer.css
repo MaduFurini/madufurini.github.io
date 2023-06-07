@@ -37,11 +37,12 @@ a > img:hover {
 }
 
 .footer_schedule p{
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .footer_schedule a{
