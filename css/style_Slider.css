@@ -11,7 +11,16 @@ div{
 }
 
 .carousel-indicators button:hover {
-    background-color: #700500;
+    background-color: #700500 !important;
+}
+
+#combo, #combo1{
+    z-index: 1000 !important;
+    margin-top: 350px;
+}
+
+#button1combo, #button2combo{
+    background-color: transparent;
 }
 
 #active{
@@ -23,24 +32,24 @@ div{
 }
 
 .yellow_slider{
-    width: 100%;
-    position: relative;
+    width: 100% !important;
+    position: relative !important;
     height: 500PX;
     background-color: #EFCA48;
 }
 
 .table{
-    width: 100%;
-    position: absolute;
-    bottom: -70px;
+    width: 100% !important;
+    position: absolute !important;
+    bottom: -70px !important;
     height: 1000px;
 }
 
 .yellow_combo-pictures{
-    position: absolute;
+    position: absolute !important;
     top: 20px;
     left: 5px;
-    z-index: 500;
+    z-index: 500 !important;
 }
 
 .yellow_combo-pictures img{
