@@ -10,6 +10,7 @@
 .title2{
         color: #632b0a;
         font-size: 45px;
+        text-align: center;
 }
 
 .linha11{
@@ -100,6 +101,31 @@ section#HotDogDoce{
   width: 45%;
   color: rgb(255, 0, 106);
 }
+
+@media screen and (max-width:499px){
+    .hot_price-doce{
+        font-size: 1.3em;
+    }
+  
+    .card_title-doce{
+        font-size: .8em;
+    }
+  
+  }
+
+  @media screen and (max-width:1000px){
+    .title2{
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 650px){
+    .title2{
+        font-size: 20px;
+    }
+  }
+  
+  
 
 /* .material-symbols-outlined{
     padding-right: 10px;

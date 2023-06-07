@@ -139,13 +139,13 @@ section#HotDogSalgado{
 }
 
 @media screen and (max-width:1000px){
-  .title{
+  .title2{
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 650px){
-  .title{
+  .title2{
     text-align: center;
   }
 }
