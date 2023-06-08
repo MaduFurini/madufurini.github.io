@@ -86,7 +86,6 @@ section#HotDogSalgado{
   font-size: 2.5em;
   font-family: 'FontePreco';
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(105, 101, 101, 0.521);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -152,4 +151,3 @@ section#HotDogSalgado{
     font-size: 25px;
   }
 }
-
