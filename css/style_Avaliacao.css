@@ -5,89 +5,89 @@
 	background: #700500;
 	position: relative;
 	margin-bottom: 5%;
-  }
-  
-  .swiper_container{
+}
+
+.swiper_container{
 	width: 100%;
 	overflow: hidden;
 	padding: 50px 0;
-  }
-  
-  .swiper_container .main_card{
+}
+
+.swiper_container .main_card{
 	display: flex;
 	justify-content: space-evenly;
 	width: 200%;
 	transition: 1s;
-  }
-  
-  #two:checked ~ .main_card{
+}
+
+#two:checked ~ .main_card{
 	margin-left: -100%;
-  }
-  
-  .swiper_container .main_card .cards{
+}
+
+.swiper_container .main_card .cards{
 	width: calc(100% / 2 - 10px);
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 20px;
 	justify-content: space-between;
-  }
-  
-  .main_card .cards .card{
+}
+
+.main_card .cards .card{
 	width: calc(100% / 3 - 10px);
 	background: #fff;
 	border-radius: 12px;
 	padding: 30px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 	transition: all 0.4s ease;
-  }
-  
-  .main_card .cards .card:hover{
+}
+
+.main_card .cards .card:hover{
 	transform: translateY(-15px);
-  }
-  
-  .cards .card .content{
+}
+
+.cards .card .content{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  }
-  
-  .cards .card .content .img{
+}
+
+.cards .card .content .img{
 	height: 130px;
 	width: 130px;
 	border-radius: 50%;
 	padding: 3px;
 	margin-bottom: 14px;
-  }
-  
-  .card .content .img img{
+}
+
+.card .content .img img{
 	height: 100%;
 	width: 100%;
 	border: 3px solid #ffff;
 	border-radius: 50%;
 	object-fit: cover;
-  }
-  
-  .card .content .name{
+}
+
+.card .content .name{
 	font-size: 20px;
 	font-weight: 500;
-  }
-  
-  .card .content .avaliacao{
+}
+
+.card .content .avaliacao{
 	font-size: 20px;
 	color: black;
-  }
-  
-   .swiper_container .button_swiper{
+}
+
+.swiper_container .button_swiper{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	margin: 20px;
-  }
-  
-  .button_swiper label{
+}
+
+.button_swiper label{
 	height: 15px;
 	width: 15px;
 	border-radius: 20px;
@@ -95,45 +95,44 @@
 	margin: 0 4px;
 	cursor: pointer;
 	transition: all 0.5s ease;
-  }
-  
-  .button_swiper label.active{
+}
+
+.button_swiper label.active{
 	width: 35px;
-  }
-  
-  #one:checked ~ .button_swiper .one{
+}
+
+#one:checked ~ .button_swiper .one{
 	width: 35px;
-  }
-  
-  #one:checked ~ .button_swiper .two{
+}
+
+#one:checked ~ .button_swiper .two{
 	width: 15px;
-  }
-  
-  #two:checked ~ .button_swiper .one{
+}
+
+#two:checked ~ .button_swiper .one{
 	width: 15px;
-  }
-  
-  #two:checked ~ .button_swiper .two{
+}
+
+#two:checked ~ .button_swiper .two{
 	width: 35px;
-  }
-  
-  input[type="radio"]{
+}
+
+input[type="radio"]{
 	display: none;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
 	.main_card .cards .card{
-	  margin: 20px  auto;
-	  width: calc(100% / 2 - 10px);
+		margin: 20px  auto;
+		width: calc(100% / 2 - 10px);
 	}
-  
-  }
-  
-  @media (max-width: 600px) {
+
+}
+
+@media (max-width: 600px) {
 	.main_card .cards .card{
-	  /* margin: 20px 0 10px 0; */
-	  width: 100%;
-	  padding: 5px;
+		width: 100%;
+		padding: 5px;
 	}
-  
-  }
+
+}
