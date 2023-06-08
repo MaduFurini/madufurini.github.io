@@ -1,3 +1,11 @@
+.title_av{
+	margin: auto;
+	color: #700500;
+	font-size: 2em;
+	font-family: 'FontePrincipal';
+	text-align: center;
+}
+
 .swiper_corpo{
 	display: flex;
 	align-items: center;
