@@ -1,43 +1,50 @@
 .delivery{
     display: flex;
     justify-content: space-between;
-    margin: 20% auto;
-    padding: 0 15vw;
+    padding: 0 100px;
+    width: 100%;
+    margin: 10% auto;
+    flex-wrap: wrap;
 }
 
-.moto{
+.moto, .hot{
     display: flex;
-    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
 }
 
-.moto img{
-    width: 150px;
-    transform: scaleX(-1);
+.hot-img, .moto-img{
+    width: 40%;
 }
 
-.text-1{
-    width: 300px;
+.hot-img img, .moto-img img{
+    width: 70%;
+}
+
+.text-1, .text-2{
+    width: 90%;
     font-weight: 800;
+    text-align: justify;
+
 }
 
-.text-2{
-    margin-left: 10px;
-    width: 280px;
-    font-weight: 800;
-}
-
-.hot{
-    display: flex;
-}
-
-.hot img{
-    width: 150px;
-}
 
 @media screen and (min-width: 888px) and (max-width: 1040px){
-    .delivery{
-        margin-top: 15%;
-        margin-left: 3%;
+   
+    .hot-img, .moto-img{
+        width: 60%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .hot-img img, .moto-img img{
+        width: 70%;
+    }
+
+    .text-1, .text-2{
+        width: 70%;
+    
     }
 
     .text-1 p{
@@ -52,30 +59,18 @@
 }
 
 @media screen and (min-width: 669px) and (max-width: 887px){
-    .delivery{
-        display: block;
-        margin-top: 15%;
-        margin-left: 28%;
-    }
+    
 
-    div.moto{
-        margin-bottom: 18%;
-    }
 }
 
 @media screen and (min-width: 456px) and (max-width: 668px){
-    .delivery{
-        display: block;
-        margin-top: 15%;
-        margin-left: 15%;
-    }
-
-    div.moto{
-        margin-bottom: 18%;
+    .moto, .hot{
+        width: 80%;
+        margin: 5% auto;
     }
 
     div.moto img, div.hot img{
-        width: 120px;
+        width: 100%;
     }
 
     .text-1 p{
@@ -90,18 +85,18 @@
 }
 
 @media screen and (min-width: 400px) and (max-width: 455px){
-    .delivery{
-        display: block;
-        margin-top: 15%;
-        margin-left: 8%;
-    }
-
-    div.moto{
-        margin-bottom: 18%;
+    .moto, .hot{
+        width: 140%;
+        margin: 5% auto;
     }
 
     div.moto img, div.hot img{
-        width: 120px;
+        width: 50px;
+    }
+
+    .text-1{
+        display: inline-block;
+        box-sizing: border-box;
     }
 
     .text-1 p{
@@ -117,27 +112,27 @@
 
 @media screen and (min-width: 200px) and (max-width: 399px){
     .delivery{
-        display: block;
-        margin-top: 15%;
-        margin-left: 9%;
+        padding: 20px;
     }
-
-    div.moto{
-        margin-bottom: 18%;
+    .moto, .hot{
+        width: 100%;
+        margin: 5% auto;
     }
 
     div.moto img, div.hot img{
-        width: 110px;
-        height: 110px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .text-1, .text-2{
+        width: 80%;
     }
 
     .text-1 p{
-        width: 200px;
         font-size: 12px;
     }
 
     .text-2 p{
-        width: 200px;
         font-size: 12px;
     }
 }

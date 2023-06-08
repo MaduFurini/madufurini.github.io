@@ -1,139 +1,138 @@
-@media (max-width: 799px) {
-
-	/* O seletor .box:not(:first-child) é usado para selecionar todos os elementos com a classe .box que não sejam o primeiro filho dentro de seu elemento pai. */
-	.box:not(:first-child) {
-		display: none;
-		/* Oculta as caixas a partir da segunda */
-	}
-
-	.region4 {
-		flex-wrap: wrap;
-		/* Quebra as caixas em várias linhas */
-	}
-
-	.box {
-		width: 100% !important;
-	}
-
-	.container {
-		flex-basis: 100%;
-		max-width: 100%;
-		/* Define a largura máxima das caixas como 100% */
-		margin: 10px;
-		box-sizing: border-box;
-	}
-
-	.carousel-control-next-icon {
-		background-color: black;
-		border-radius: 50%;
-		margin-top: 80px;
-		margin-right: 5%px;
-	}
-
-	.carousel-control-prev-icon {
-		background-color: black;
-		border-radius: 50%;
-		margin-top: 80px;
-		margin-left: 5%;
-	}
-}
-
-.carousel-indicators button {
-	background-color: #700500 !important;
-	/* Define a cor de fundo dos botões do indicador */
-	cursor: default !important;
-	/* Define o cursor como padrão */
-}
-
-.carousel hr {
-	width: 25%;
-	border: 5px solid rgba(0, 0, 0, 1);
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 8px;
-}
-
-.carousel h2 {
-	color: #700500;
-	text-align: center;
-}
-
-.region4 {
-	background-color: #700500;
-	margin-top: 20px;
-	box-sizing: border-box;
+.swiper_corpo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #700500;
+	position: relative;
+  }
+  
+  .swiper_container{
 	width: 100%;
-	height: 400px;
+	overflow: hidden;
+	padding: 50px 0;
+  }
+  
+  .swiper_container .main_card{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.box {
-	box-sizing: border-box;
-	width: 33%;
-	height: 33%;
-	padding: 10px;
+	justify-content: space-evenly;
+	width: 200%;
+	transition: 1s;
+  }
+  
+  #two:checked ~ .main_card{
+	margin-left: -100%;
+  }
+  
+  .swiper_container .main_card .cards{
+	width: calc(100% / 2 - 10px);
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.icon-container {
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
-}
-
-.container {
-	border-radius: 8px;
-	height: 200px;
-	background-color: white;
+	flex-wrap: wrap;
+	margin: 0 20px;
+	justify-content: space-between;
+  }
+  
+  .main_card .cards .card{
+	width: calc(100% / 3 - 10px);
+	background: #fff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+	transition: all 0.4s ease;
+  }
+  
+  .main_card .cards .card:hover{
+	transform: translateY(-15px);
+  }
+  
+  .cards .card .content{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
-
-.text-comentario {
+  }
+  
+  .cards .card .content .img{
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	padding: 3px;
+	margin-bottom: 14px;
+  }
+  
+  .card .content .img img{
+	height: 100%;
+	width: 100%;
+	border: 3px solid #ffff;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+  
+  .card .content .name{
+	font-size: 20px;
+	font-weight: 500;
+  }
+  
+  .card .content .avaliacao{
+	font-size: 20px;
+	color: black;
+  }
+  
+   .swiper_container .button_swiper{
+	width: 100%;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	padding: 10px;
-	max-height: 150px;
-	overflow: auto;
-	/* Habilita a rolagem quando o conteúdo excede a altura */
-}
-
-.text-comentario .nome {
-	font-weight: bold;
-	margin-bottom: 5px;
-}
-
-.text-comentario .texto {
-	margin-top: 5px;
-	max-height: 50px;
-}
-
-.carousel-control-next-icon {
-	background-color: black;
-	border-radius: 50%;
-	margin-top: 80px;
-}
-
-.button {
-	border-radius: 50%;
-}
-
-.carousel-control-prev-icon {
-	background-color: black;
-	border-radius: 50%;
-	margin-top: 80px;
-}
-
-.container img {
-	border: 1px solid black;
-	margin-bottom: 10px;
-	border-radius: 50%;
-}
+	margin: 20px;
+  }
+  
+  .button_swiper label{
+	height: 15px;
+	width: 15px;
+	border-radius: 20px;
+	background: #fff;
+	margin: 0 4px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+  }
+  
+  .button_swiper label.active{
+	width: 35px;
+  }
+  
+  #one:checked ~ .button_swiper .one{
+	width: 35px;
+  }
+  
+  #one:checked ~ .button_swiper .two{
+	width: 15px;
+  }
+  
+  #two:checked ~ .button_swiper .one{
+	width: 15px;
+  }
+  
+  #two:checked ~ .button_swiper .two{
+	width: 35px;
+  }
+  
+  input[type="radio"]{
+	display: none;
+  }
+  
+  @media (max-width: 768px) {
+	.main_card .cards .card{
+	  margin: 20px  auto;
+	  width: calc(100% / 2 - 10px);
+	}
+  
+  }
+  
+  @media (max-width: 600px) {
+	.main_card .cards .card{
+	  /* margin: 20px 0 10px 0; */
+	  width: 100%;
+	  padding: 5px;
+	}
+  
+  }
