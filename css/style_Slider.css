@@ -166,6 +166,12 @@ div{
         background-color: #700500;
 }
 
+#combo, #combo1{
+    z-index: 1000 !important;
+    margin-top: 350px;
+}
+
+
     #active{
         background-color: #700500;
 }
@@ -270,7 +276,7 @@ div{
         left: 10px;
         width: 430px;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: bold;
         z-index: 5;
         color: white;
@@ -298,7 +304,8 @@ div{
     }
 }
 /*--------------------------------------------------------------------------------------------*/
-@media screen and (min-width:200px) and (max-width: 799px) {
+@media screen and (min-width:200px) and (max-width: 799px)
+{
     .carousel-indicators button {
         width: 10px !important;
         height: 10px !important;
@@ -309,6 +316,11 @@ div{
         background-color: #700500;
 }
 
+#combo, #combo1{
+    z-index: 1000 !important;
+    margin-top: 350px;
+}
+s
     #active{
         background-color: transparent;
         
@@ -426,5 +438,3 @@ div{
         text-shadow: 3px 3px rgba(0, 0, 0, 0.774);
     }
 }
-
-
