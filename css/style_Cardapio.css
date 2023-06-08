@@ -162,15 +162,19 @@ section#HotDogSalgado{
 
 @media screen and (max-height:500px){
   .itens_cardapio img{
-    height: 70vh;
+    height: 60vh;
   }
 
   .itens_cardapio{
     height: 100vh;
-    font-size: .9em;
+    font-size: 1em;
   }
 
-  .card_title{
-    
+}
+
+
+@media screen and (max-height: 200px){
+  .itens_cardapio{
+    font-size: .7em;
   }
 }
